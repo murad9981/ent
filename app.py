@@ -12,7 +12,8 @@ mo = joblib.load('model')
 
 t.title('Sentiment Analysis')
 t.write("An App created by me to analyze people's sentiment.\n\n"
-          'DISCLAIMER: THIS IS JUST A PRELIMINARY EXPERIMENT, TRAINING DATA IS TOO LOW TO BE OF ANY USE IN PRACTICAL ENVIRONMENT.')
+          'DISCLAIMER: THIS IS JUST A PRELIMINARY EXPERIMENT, TRAINING DATA IS TOO LOW TO BE OF ANY USE IN PRACTICAL ENVIRONMENT.\n"
+           "ALSO, THE APP CAN ONLY PREDICT TWO EMOTION: POSITIVE OR NEGATIVE')
 
 t.divider()
 
@@ -24,6 +25,6 @@ if t.button('Analyse'):
     p = mo.predict(b)
 
     if p[0] == 1:
-        t.success("😊 Positive")
+        t.success("😊 Pos")
     else:
         t.error('😞 Negative')
