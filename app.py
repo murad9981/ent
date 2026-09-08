@@ -2,11 +2,6 @@
 import streamlit as t
 import joblib
 
-t.set_page_config(
-    page_title="Sentiment Analyzer",
-    page_icon="🎭",
-    layout="centered"
-)
 
 co = joblib.load('v')
 mo = joblib.load('model')
