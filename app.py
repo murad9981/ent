@@ -6,8 +6,8 @@ co = joblib.load('v')
 mo = joblib.load('model')
 
 t.title('Sentiment Analysis')
-t.write('''An App created by me to analyze people's sentiment.
-          DISCLAIMER: THIS IS JUST A PRELIMINARY EXPERIMENT, TRAINING DATA IS TOO LOW TO BE OF ANY USE IN PRACTICAL ENVIRONMENT.''')
+t.write("An App created by me to analyze people's sentiment.\n\n"
+          'DISCLAIMER: THIS IS JUST A PRELIMINARY EXPERIMENT, TRAINING DATA IS TOO LOW TO BE OF ANY USE IN PRACTICAL ENVIRONMENT.')
 
 text = t.text_area('enter your sentence: ')
 
