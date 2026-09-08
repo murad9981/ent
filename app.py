@@ -13,7 +13,7 @@ mo = joblib.load('model')
 t.title('Sentiment Analysis')
 t.write("An App created by me to analyze people's sentiment.\n\n"
           'DISCLAIMER: THIS IS JUST A PRELIMINARY EXPERIMENT, TRAINING DATA IS TOO LOW TO BE OF ANY USE IN PRACTICAL ENVIRONMENT.\n"
-           "ALSO, THE APP CAN ONLY PREDICT TWO EMOTION: POSITIVE OR NEGATIVE")
+           "ALSO, THE APP CAN ONLY PREDICT TWO EMOTION: POSITIVE OR NEGATIVE.")
 
 t.divider()
 
