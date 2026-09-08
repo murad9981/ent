@@ -17,7 +17,7 @@ t.write("An App created by me to analyze people's sentiment.\n\n"
 t.divider()
 
 
-text = t.text_area('enter your sentence: ')
+text = t.text_area('Enter your sentence: ')
 
 if t.button('Analyse'):
     b = co.transform([text])
